@@ -1,0 +1,331 @@
+Create a futuristic AI-powered “New User Entry” screen for the fitness platform “FitBeat” that captures all user profile, activity, health, wellness, and recommendation data and saves it directly into a Supabase database.
+
+The UI should look like a premium dark neon SaaS dashboard with cyberpunk health-tech aesthetics and intelligent auto-calculations.
+
+==================================================
+TECH STACK
+
+Frontend:
+
+React + Vite
+Tailwind CSS
+Framer Motion
+React Hook Form
+Zod validation
+Lucide React icons
+
+Backend:
+
+Supabase Database
+Supabase Authentication
+Supabase Realtime
+Supabase Insert API
+==================================================
+DESIGN STYLE
+
+Theme:
+
+Ultra dark navy/black background (#050816)
+Purple → cyan neon gradients
+Glassmorphism cards
+Rounded corners (20px)
+Thin glowing borders
+Neon hover glow effects
+Inter/Poppins typography
+Dribbble-quality UI
+Futuristic AI fitness aesthetic
+
+Use:
+
+Holographic body silhouette
+Floating analytics
+Neon data widgets
+Animated progress indicators
+
+NO:
+
+Human photos
+Stock images
+==================================================
+SCREEN LAYOUT
+
+Split screen layout.
+
+LEFT SIDE:
+
+FitBeat logo
+Heading:
+“Create Your AI Fitness Profile”
+Subtitle:
+“Personalized recommendations powered by your lifestyle and health data.”
+Futuristic holographic human body outline
+Floating stat widgets:
+Steps
+Sleep
+Calories
+Hydration
+Heart Rate
+AI recommendation glow particles
+Privacy & security badge
+
+RIGHT SIDE:
+Large scrollable glassmorphism form container.
+
+Top:
+
+Multi-step progress bar
+Neon glowing active step
+
+Steps:
+
+Basic Info
+Body Metrics
+Activity
+Lifestyle
+Health & Wellness
+Recommendations
+Review & Save
+==================================================
+DATABASE TABLE FIELDS
+
+Create form inputs for all fields below:
+
+user_id
+name
+age
+gender
+city
+occupation
+fitness_level
+height_cm
+weight_kg
+bmi
+avg_daily_steps
+weekly_active_minutes
+workout_days_per_week
+preferred_workout
+avg_workout_duration_mins
+sleep_hours_avg
+sleep_quality
+wake_up_time
+sleep_time
+sedentary_hours_per_day
+water_intake_liters
+diet_type
+daily_calorie_burn
+stress_level
+screen_time_hours
+resting_heart_rate
+energy_level_score
+productivity_score
+weekend_activity_score
+mental_wellness_score
+meditation_minutes_per_day
+smoking_status
+alcohol_consumption_per_week
+smartwatch_user
+health_goal
+activity_pattern
+username
+password
+==================================================
+RECOMMENDATION PRODUCT FIELDS
+
+Add recommendation fields:
+
+product1
+product2
+product3
+product4
+product5
+
+Products auto-selected using AI logic based on user goals and activity.
+
+==================================================
+AUTO CALCULATIONS
+
+Automatically calculate these fields:
+
+BMI
+Formula:
+BMI = weight_kg / ((height_cm / 100)^2)
+Sleep Duration
+Calculate from:
+wake_up_time
+sleep_time
+Daily Calorie Burn
+Estimate using:
+weight
+steps
+workout duration
+activity level
+Health Score
+Calculate using:
+sleep quality
+stress
+activity
+water intake
+screen time
+Recovery Score
+Calculate using:
+sleep
+meditation
+workout intensity
+Hydration Recommendation
+Based on:
+weight
+activity
+weather/activity level
+==================================================
+SMART AI LOGIC
+
+IF:
+
+stress_level high
+THEN:
+recommend meditation products
+suggest recovery plans
+
+IF:
+
+health_goal = Muscle Gain
+THEN:
+recommend:
+Whey Protein
+Creatine
+BCAA
+
+IF:
+
+health_goal = Weight Loss
+THEN:
+recommend:
+Fat burner
+Resistance bands
+Smartwatch
+
+IF:
+
+sleep_quality poor
+THEN:
+recommend:
+Magnesium
+Sleep mask
+Recovery supplements
+
+IF:
+
+smartwatch_user = yes
+THEN:
+show sync integrations
+==================================================
+INPUT UI TYPES
+
+Use:
+
+Floating label inputs
+Neon sliders
+Smart dropdowns
+Time pickers
+Toggle switches
+Circular score sliders
+AI suggestion cards
+Animated validation states
+==================================================
+FIELD TYPES
+
+Text Inputs:
+
+name
+city
+occupation
+username
+password
+
+Dropdowns:
+
+gender
+fitness_level
+preferred_workout
+diet_type
+health_goal
+activity_pattern
+smoking_status
+
+Number Inputs:
+
+age
+height_cm
+weight_kg
+avg_daily_steps
+weekly_active_minutes
+workout_days_per_week
+avg_workout_duration_mins
+water_intake_liters
+stress_level
+screen_time_hours
+resting_heart_rate
+meditation_minutes_per_day
+
+Time Inputs:
+
+wake_up_time
+sleep_time
+
+Toggle:
+
+smartwatch_user
+==================================================
+REVIEW & SAVE SCREEN
+
+Final step should show:
+
+AI generated profile summary
+Health score
+Lifestyle score
+Recovery score
+Recommended fitness path
+Product recommendations
+Recommended workouts
+
+Buttons:
+
+Back
+Save to Supabase
+==================================================
+SUPABASE INTEGRATION
+
+Create Supabase insert logic:
+
+On submit:
+
+Validate all fields
+Auto-calculate values
+Generate AI recommendations
+Insert data into Supabase table
+Show success notification
+
+Include:
+
+Loading states
+Success toast
+Error handling
+Duplicate username validation
+==================================================
+DEFAULT LOGIN
+
+Default testing credentials:
+
+Username: susi
+Password: susi123
+==================================================
+FINAL EXPERIENCE
+
+The entire user entry system should feel like:
+
+A futuristic AI health operating system
+Premium cyberpunk fitness SaaS
+Intelligent health analytics platform
+High-end startup wellness ecosystem
+
+The UI must be cinematic, immersive, hyper-detailed, production-ready, responsive, and visually stunning with smooth animations and advanced AI personalization.

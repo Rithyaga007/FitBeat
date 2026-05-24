@@ -1,0 +1,466 @@
+Create a complete futuristic AI-powered onboarding and health profiling system for the premium fitness platform “FitBeat”.
+
+The onboarding should feel like a next-generation AI fitness operating system with hyper-detailed dark neon SaaS UI, intelligent health analytics, AI recommendations, animated onboarding flow, and immersive cyberpunk aesthetics.
+
+The system should include ALL onboarding screens, recommendation screens, analytics screens, and the full onboarding user flow.
+
+GLOBAL DESIGN STYLE
+
+Theme:
+
+Ultra dark navy/black background (#050816)
+Purple → cyan neon gradients
+Glassmorphism UI
+Thin glowing borders
+Soft neon shadows
+Futuristic health-tech aesthetic
+Premium SaaS product design
+Dribbble-quality visuals
+Cinematic UI lighting
+Inter/Poppins typography
+Rounded corners (20px)
+Smooth transitions
+Floating glow particles
+Holographic effects
+
+Do NOT use:
+
+Human photos
+Real fitness models
+Stock images
+
+Instead use:
+
+Holographic body outlines
+Futuristic 3D neon avatars
+AI-generated body silhouettes
+Neon analytics graphics
+APPLICATION FLOW
+
+FLOW ORDER:
+
+Login Screen
+Username Authentication
+Multi-Step Onboarding
+AI Processing Screen
+Dashboard Access
+Personalized Recommendations
+Health Analytics
+Goals & Tracking
+Brand Marketplace
+LOGIN SCREEN
+
+Create a futuristic split-screen login UI.
+
+LEFT SIDE:
+
+FitBeat logo
+Cyberpunk glowing fitness background
+AI health hologram
+Floating health stats
+Neon animated circles
+Motivational text:
+“Your Fitness. Your Beat.”
+Features:
+AI Tracking
+Smart Insights
+Goal Optimization
+Health Monitoring
+
+RIGHT SIDE:
+Glassmorphism login form.
+
+Fields:
+
+Username
+Password
+
+Default Login:
+
+Username: susi
+Password: susi123
+
+Buttons:
+
+Login
+Continue as Guest
+
+Extra UI:
+
+Password visibility toggle
+Remember me checkbox
+Secure encrypted badge
+Smooth hover animations
+MULTI-STEP ONBOARDING SYSTEM
+
+Layout:
+Split-screen onboarding design.
+
+LEFT PANEL:
+
+FitBeat branding
+Holographic body silhouette
+Floating stat cards:
+Heart Rate
+Calories
+Sleep
+Hydration
+Steps
+AI recommendation badges
+Security/privacy badge
+Animated neon rings
+
+RIGHT PANEL:
+Large onboarding container.
+
+TOP:
+Animated step progress bar.
+
+Steps:
+
+Basic Info
+Body Metrics
+Activity
+Lifestyle
+Health Goals
+Security
+AI Summary
+
+Active step glows with neon purple/cyan effect.
+
+STEP 1 — BASIC INFO SCREEN
+
+Heading:
+“Let’s Build Your Fitness Profile”
+
+Fields:
+
+Username
+Full Name
+Age
+Gender
+City
+Occupation
+Password
+
+Features:
+
+Floating labels
+Neon outlined inputs
+Smart dropdowns
+Password visibility toggle
+Real-time validation
+STEP 2 — BODY METRICS SCREEN
+
+Heading:
+“Your Body Metrics”
+
+Fields:
+
+Height (cm)
+Weight (kg)
+Resting Heart Rate
+Energy Level Score
+
+AUTO CALCULATE:
+
+BMI
+Body category
+
+BMI Categories:
+
+Underweight
+Normal
+Overweight
+Obese
+
+Visuals:
+
+Circular BMI analytics
+Neon radial graph
+AI body analysis panel
+Health indicator scale
+STEP 3 — ACTIVITY SCREEN
+
+Heading:
+“Your Activity Snapshot”
+
+Fields:
+
+Fitness Level
+Average Daily Steps
+Weekly Active Minutes
+Workout Days Per Week
+Preferred Workout
+Average Workout Duration
+
+Workout Types:
+
+Strength
+Cardio
+Yoga
+Running
+HIIT
+CrossFit
+
+AUTO AI INSIGHTS:
+
+Suggest walking goals
+Recommend workout plans
+Beginner plan recommendations
+
+Visuals:
+
+Activity score gauge
+Weekly activity bars
+AI suggestion cards
+Neon analytics widgets
+STEP 4 — LIFESTYLE SCREEN
+
+Heading:
+“Your Lifestyle Matters”
+
+Fields:
+
+Sleep Hours Average
+Sleep Quality
+Wake Up Time
+Sleep Time
+Sedentary Hours
+Water Intake
+Diet Type
+Screen Time
+Smoking Status
+Alcohol Consumption
+Smartwatch User toggle
+
+AUTO CALCULATIONS:
+
+Sleep duration
+Hydration score
+
+Visuals:
+
+Sleep timeline graph
+Hydration circular tracker
+Lifestyle summary panel
+Wellness AI tips
+
+Diet Options:
+
+Veg
+Non-Veg
+Vegan
+Keto
+High Protein
+STEP 5 — HEALTH GOALS SCREEN
+
+Heading:
+“Define Your Future”
+
+Fields:
+
+Stress Level
+Mental Wellness Score
+Productivity Score
+Weekend Activity Score
+Meditation Minutes
+
+Health Goals:
+
+Weight Loss
+Muscle Gain
+Fat Loss
+Better Sleep
+Improve Stamina
+Mental Health
+General Fitness
+
+Activity Patterns:
+
+Sedentary
+Moderately Active
+Active
+Athlete
+
+AI INSIGHTS:
+
+Calorie targets
+Hydration suggestions
+Workout intensity
+Supplement recommendations
+Product recommendations
+
+Visuals:
+
+AI recommendation engine
+Wellness sliders
+Product recommendation cards
+Estimated outcome analytics
+STEP 6 — SECURITY SCREEN
+
+Heading:
+“Secure Your Journey”
+
+Features:
+
+Password protection
+Two-factor authentication
+Biometric login
+Fingerprint unlock
+Privacy toggles
+Cloud sync settings
+Recovery setup
+
+Visuals:
+
+Holographic shield
+Encryption animations
+Security score gauge
+Secure neon lock graphics
+STEP 7 — FINAL AI SUMMARY SCREEN
+
+Heading:
+“Your AI Fitness Blueprint”
+
+Display:
+
+AI-generated profile summary
+Fitness readiness score
+Lifestyle score
+Recovery score
+Estimated calorie burn
+Wellness index
+Recommended fitness path
+
+Visuals:
+
+Radar charts
+Circular analytics
+AI summary dashboard
+Product previews
+Health score widgets
+
+Buttons:
+
+Back
+Complete Setup
+Enter Dashboard
+AI SMART LOGIC
+
+AUTO CALCULATIONS:
+
+BMI
+Activity score
+Health score
+Recovery score
+Hydration recommendation
+Sleep analysis
+Estimated calorie burn
+
+SMART AI RULES:
+
+High stress → recommend meditation
+Poor sleep → recovery supplements
+Muscle gain goal → protein supplements
+Low activity → walking plans
+Smartwatch enabled → sync recommendations
+RECOMMENDATION SCREEN
+
+Create a futuristic AI-powered recommendation marketplace.
+
+Layout:
+Large 5x10 product grid.
+
+Features:
+
+Product cards
+Product images
+Match score
+Ratings
+Price
+Brand name
+Product tags
+“View Product” button
+Wishlist icon
+
+Categories:
+
+Supplements
+Wearables
+Recovery
+Fitness Gear
+Nutrition
+
+RIGHT PANEL:
+
+AI recommendation engine
+User health snapshot
+Goal summary
+Why these products section
+BRANDS MARKETPLACE SCREEN
+
+Categories:
+
+Protein & Supplements:
+
+Optimum Nutrition
+MuscleBlaze
+MyProtein
+GNC
+AS-IT-IS
+Avvatar
+Bigmuscles Nutrition
+Ultimate Nutrition
+
+Smartwatch & Fitness Tracking:
+
+Apple
+Samsung
+Garmin
+Fitbit
+Amazfit
+Whoop
+
+Fitness Equipment:
+
+Decathlon
+Cultsport
+PowerMax
+Cockatoo
+Boldfit
+
+Shoes & Activewear:
+
+Nike
+Adidas
+Puma
+Under Armour
+Reebok
+ASICS
+
+Healthy Food & Nutrition:
+
+The Whole Truth
+Yoga Bar
+Oziva
+Pintola
+Amul Protein
+
+Use:
+
+Neon logo cards
+Horizontal brand carousels
+Hover glow animations
+Dark premium marketplace UI
+FINAL EXPERIENCE
+
+The entire onboarding and application experience should feel like:
+
+A futuristic AI fitness operating system
+A premium health-tech ecosystem
+A next-generation wellness startup
+A cinematic cyberpunk dashboard
+A highly immersive personalized health platform
+
+Everything should be hyper-detailed, visually stunning, production-ready, futuristic, intelligent, responsive, and modern with smooth UX transitions and premium neon UI quality.

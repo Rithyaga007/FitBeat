@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "FitBeat - AI Fitness Platform"
+version = "1.0.0"
+id = "artifacts/fitbeat"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18704
+
+[services.development]
+run = "pnpm --filter @workspace/fitbeat run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/fitbeat", "run", "build" ]
+publicDir = "artifacts/fitbeat/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18704"
+BASE_PATH = "/"
